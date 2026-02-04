@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  position: relative;
+}
+
+section > h2 {
+  position: relative;
+  display: inline-block;
+}
+
+section > h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(201, 169, 97, 1), transparent);
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(201, 169, 97, 0.6);
+}
+
