@@ -71,16 +71,18 @@ const Overview = () => {
         <div className="overview-text">
           <p>
             African Americans have historically faced and continue to face systemic discrimination and denial of{' '}
-            <span className="vocab-badge">Civil Liberties</span>. Despite constitutional protections including the{' '}
-            <span className="vocab-badge">14th Amendment</span> and lessons from{' '}
-            <span className="vocab-badge">Lesser v. Epes Birmingham Jail</span>, African Americans experience ongoing challenges.
+            <span className="vocab-badge">Civil Liberties</span> and <span className="vocab-badge">Civil Rights</span>. 
+            Despite constitutional protections including the <span className="vocab-badge">14th Amendment</span> guaranteeing{' '}
+            <span className="vocab-badge">Due Process</span>, and landmark legislation such as the{' '}
+            <span className="vocab-badge">Civil Rights Act</span> and <span className="vocab-badge">Voting Rights Act</span>, 
+            African Americans continue to experience ongoing challenges.
           </p>
           <br />
           <p>
             These challenges include voting restrictions, police brutality, unequal criminal justice outcomes, economic disparities, 
-            housing discrimination, educational inequities, and unequal access to healthcare. The movement continues to fight against 
-            higher rates of police violence, mass incarceration, and barriers to voting through voter ID laws and polling place closures, 
-            invoking the precedent set by <span className="vocab-badge">Gideon v. Wainwright</span> for equal protection under the law.
+            housing discrimination, educational inequities, and unequal access to healthcare. Despite progress through{' '}
+            <span className="vocab-badge">Affirmative Action</span> policies, the movement continues to fight against 
+            higher rates of police violence, mass incarceration, and barriers to voting through voter ID laws and polling place closures.
           </p>
         </div>
         
