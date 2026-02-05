@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Overview from './components/Overview';
+import Gallery from './components/Gallery';
 import Timeline from './components/Timeline';
 import Organizations from './components/Organizations';
 import Issues from './components/Issues';
@@ -14,6 +15,7 @@ function App() {
       <Navigation />
       <Hero />
       <Overview />
+      <Gallery />
       <Timeline />
       <Organizations />
       <Issues />

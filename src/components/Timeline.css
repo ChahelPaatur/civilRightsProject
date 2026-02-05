@@ -1,7 +1,10 @@
 .timeline {
   position: relative;
-  background: linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 100%);
+  background: #000000;
   overflow: hidden;
+  padding: 6rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .timeline-particles {
@@ -229,29 +232,29 @@
 }
 
 .timeline-content {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
+  background: #000000;
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid rgba(201, 169, 97, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .timeline-item:hover .timeline-content {
-  background: linear-gradient(135deg, rgba(201, 169, 97, 0.08) 0%, rgba(201, 169, 97, 0.03) 100%);
-  border-color: rgba(201, 169, 97, 0.3);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  background: #000000;
+  border-color: rgba(201, 169, 97, 0.4);
+  box-shadow: 0 10px 40px rgba(201, 169, 97, 0.2);
   transform: translateX(8px);
 }
 
 .timeline-content h3 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  color: var(--text-primary);
+  color: #ffffff;
   font-weight: 700;
 }
 
 .timeline-content p {
-  color: var(--text-secondary);
+  color: #ffffff;
   line-height: 1.8;
   margin-bottom: 1.5rem;
 }

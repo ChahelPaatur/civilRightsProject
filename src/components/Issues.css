@@ -1,6 +1,10 @@
 #issues {
   position: relative;
   overflow: hidden;
+  padding: 6rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #000000;
 }
 
 .feature-image-3 {
@@ -59,10 +63,10 @@
 }
 
 .issue-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  background: #000000;
   padding: 3rem;
   border-radius: 24px;
-  border: 1px solid rgba(201, 169, 97, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);

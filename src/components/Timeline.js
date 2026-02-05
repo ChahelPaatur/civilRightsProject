@@ -99,16 +99,6 @@ const Timeline = () => {
         <div className="timeline-particle"></div>
       </div>
       
-      <div className="feature-image feature-image-4">
-        <img src="/pics/IMG_4268.JPG" alt="Timeline" />
-        <div className="image-borders">
-          <div className="border-corner border-tl"></div>
-          <div className="border-corner border-tr"></div>
-          <div className="border-corner border-bl"></div>
-          <div className="border-corner border-br"></div>
-        </div>
-      </div>
-      
       <h2>Timeline of Events</h2>
       <p className="subtitle">Key landmarks in the African American civil rights movement from 2010-2025</p>
       

@@ -64,11 +64,6 @@ const Overview = () => {
         <div className="bg-circle bg-circle-2"></div>
       </div>
       
-      <div className="feature-image feature-image-1">
-        <img src="/pics/IMG_4265.JPG" alt="Civil Rights Movement" />
-        <div className="image-overlay"></div>
-      </div>
-      
       <h2>The Ongoing Struggle</h2>
       <p className="subtitle">Understanding the denial of rights and the continued fight for equality</p>
       

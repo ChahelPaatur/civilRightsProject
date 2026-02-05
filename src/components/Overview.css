@@ -1,4 +1,4 @@
-section {
+.overview {
   padding: 6rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
@@ -23,7 +23,7 @@ section .subtitle {
 }
 
 .overview {
-  background: linear-gradient(180deg, #0f0f0f 0%, #141414 100%);
+  background: #000000;
   position: relative;
   overflow: hidden;
 }
@@ -139,10 +139,10 @@ section .subtitle {
 }
 
 .stat-card {
-  background: linear-gradient(135deg, rgba(201, 169, 97, 0.05) 0%, rgba(201, 169, 97, 0.02) 100%);
+  background: #000000;
   padding: 2.5rem;
   border-radius: 20px;
-  border: 1px solid rgba(201, 169, 97, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -239,7 +239,7 @@ section .subtitle {
 }
 
 .stat-card p {
-  color: var(--text-secondary);
+  color: #ffffff;
   font-size: 0.95rem;
   line-height: 1.5;
   position: relative;
