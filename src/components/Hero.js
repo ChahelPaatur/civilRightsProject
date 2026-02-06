@@ -87,7 +87,7 @@ const Hero = () => {
           {displayText}
           <span className="cursor-blink">|</span>
         </h1>
-        <p className="hero-subtitle">Documenting the ongoing struggle for racial justice and equality in America</p>
+        <p className="hero-subtitle">Documenting the ongoing fight for racial justice and equality in America from 2010-2025</p>
         <a href="#overview" className="cta-button" onClick={scrollToOverview}>
           <span className="button-text">Explore the Movement</span>
           <span className="button-icon">

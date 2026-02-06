@@ -12,7 +12,7 @@ const Gallery = () => {
   return (
     <section id="gallery" className="gallery">
       <h2>Historical Gallery</h2>
-      <p className="subtitle">Visual documentation of the civil rights movement</p>
+      <p className="subtitle">Images documenting the civil rights movement</p>
       
       <div className="gallery-grid">
         {images.map((image, index) => (

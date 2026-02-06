@@ -100,7 +100,7 @@ const Timeline = () => {
       </div>
       
       <h2>Timeline of Events</h2>
-      <p className="subtitle">Key landmarks in the African American civil rights movement from 2010-2025</p>
+      <p className="subtitle">Important moments in the African American civil rights movement from 2010-2025</p>
       
       <div className="timeline-container" ref={timelineRef}>
         {events.map((event, index) => (

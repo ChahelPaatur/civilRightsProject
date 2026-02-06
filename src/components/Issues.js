@@ -7,31 +7,31 @@ const Issues = () => {
   const issues = [
     {
       title: 'Voting Rights',
-      description: 'Voter suppression through strict ID laws, polling place closures, and restrictions on early voting and mail-in ballots disproportionately affect Black voters, undermining democratic participation.'
+      description: 'Voter supression through strict ID laws, polling place closures, and limits on early voting and mail-in ballots make it harder for Black voters to participate in elections.'
     },
     {
       title: 'Police Brutality',
-      description: 'Continued killings of unarmed Black individuals by law enforcement, lack of police accountability and meaningful reform despite widespread protests and demands for change.'
+      description: 'Continued killings of unarmed Black people by police, lack of accountability and real reform even after widespread protests and demands for change.'
     },
     {
       title: 'Criminal Justice Inequality',
-      description: 'Racial disparities in arrests, sentencing, and incarceration rates. Mass incarceration continues to devastate Black communities, families, and economic opportunities.'
+      description: 'Huge racial differences in arrests, sentencing, and incarceration rates. Mass incarceration continues to hurt Black communities, break up families, and limit economic oportunities.'
     },
     {
       title: 'Economic Inequality',
-      description: 'Persistent wealth gap, lower homeownership rates, wage disparities, and higher unemployment rates compared to white Americans, perpetuating cycles of poverty.'
+      description: 'Large wealth gap, lower homeownership rates, wage differences, and higher unemployment rates compared to white Americans, which keeps poverty going.'
     },
     {
       title: 'Healthcare Disparities',
-      description: 'Higher rates of chronic illness, maternal mortality, and unequal access to quality healthcare. COVID-19 pandemic highlighted and exacerbated existing health inequities.'
+      description: 'Higher rates of chronic illness, maternal mortality, and unequal access to good healthcare. The COVID-19 pandemic made these existing health problems even worse.'
     },
     {
       title: 'Educational Inequity',
-      description: 'Underfunded schools in predominantly Black neighborhoods, school-to-prison pipeline, and disparities in college access and completion rates limit opportunities.'
+      description: 'Underfunded schools in mostly Black neighborhoods, the school-to-prison pipeline, and differences in college access and graduation rates that limit oppurtunities.'
     },
     {
       title: 'Affirmative Action Rollback',
-      description: 'The 2023 Supreme Court decision banning race-conscious college admissions threatens diversity and opportunity for African American students in higher education.'
+      description: 'The 2023 Supreme Court decision that banned race-conscious college admissions threatens diversity and oportunity for African American students trying to get into college.'
     }
   ];
 
@@ -61,7 +61,7 @@ const Issues = () => {
   return (
     <section id="issues">
       <h2>Current Issues</h2>
-      <p className="subtitle">The critical challenges facing African Americans today</p>
+      <p className="subtitle">Major challenges that African Americans are still facing today</p>
       
       <div className="issues-grid">
         {issues.map((issue, index) => (

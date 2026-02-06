@@ -70,19 +70,19 @@ const Overview = () => {
       <div className="overview-content">
         <div className="overview-text">
           <p>
-            African Americans have historically faced and continue to face systemic discrimination and denial of{' '}
+            Throughout history, African Americans have faced serious discrimination and denial of their{' '}
             <span className="vocab-badge">Civil Liberties</span> and <span className="vocab-badge">Civil Rights</span>. 
-            Despite constitutional protections including the <span className="vocab-badge">14th Amendment</span> guaranteeing{' '}
-            <span className="vocab-badge">Due Process</span>, and landmark legislation such as the{' '}
+            Even with protections like the <span className="vocab-badge">14th Amendment</span> that guarantees{' '}
+            <span className="vocab-badge">Due Process</span>, and important laws like the{' '}
             <span className="vocab-badge">Civil Rights Act</span> and <span className="vocab-badge">Voting Rights Act</span>, 
-            African Americans continue to experience ongoing challenges.
+            there are still alot of challenges today that African Americans deal with.
           </p>
           <br />
           <p>
-            These challenges include voting restrictions, police brutality, unequal criminal justice outcomes, economic disparities, 
-            housing discrimination, educational inequities, and unequal access to healthcare. Despite progress through{' '}
-            <span className="vocab-badge">Affirmative Action</span> policies, the movement continues to fight against 
-            higher rates of police violence, mass incarceration, and barriers to voting through voter ID laws and polling place closures.
+            Some of the biggest issues include voting restrictions, police brutality, unfair treatment in the criminal justice system, 
+            economic inequality, housing descrimination, unequal education, and problems getting healthcare. Even though{' '}
+            <span className="vocab-badge">Affirmative Action</span> policies have helped make some progress, people are still fighting 
+            against police violence, mass incarceration, and things like voter ID laws that make it harder to vote.
           </p>
         </div>
         
